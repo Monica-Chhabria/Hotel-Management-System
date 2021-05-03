@@ -131,6 +131,7 @@ Rest endpoint:  http://serverip:serverport/api/review/deleteReview/{reviewid}
 {
     "status": "success"
 }
+
 9. Show list of rating of the hotel
 
 Rest endpoint:  http://serverip:serverport/api/hotel/getHotel/{hotelid}
@@ -184,6 +185,7 @@ Rest endpoint: http://serverip:serverport/api/hotel/findHotelByFilter?search={at
 http://localhost:8089/api/hotel/findHotelByFilter?search=city:Mumbai
 
 ### Sample output json
+
 {
     "hotels": [
         {
